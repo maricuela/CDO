@@ -17,11 +17,11 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.2rem 1.5rem;
+    padding: 0.1rem 3rem;
     background: #010060;
 }
 .cabecera__logo{
-    width: 12rem;
+    width: 20rem;
 }
 .cabecera__menu{
     display: flex;
@@ -54,14 +54,13 @@ ul{
     border-radius: 1rem;
 }
 
-
 .newsletter{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
     padding: 4rem 3rem;
-    background: lightslategrey;
+    background: black;
     color: #010060;
 }
 .newsletter__imagen{
