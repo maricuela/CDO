@@ -7,14 +7,100 @@
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
+
+/* ----HEADER---- */
 .cabecera{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem 1.5rem;
-    background: darkblue;
+    background: #010060;
 }
 .cabecera__logo{
-    width: 10rem;
+    width: 12rem;
+}
+.cabecera__menu{
+    display: flex;
+    gap: 1rem;
+}
+.menu__enlace{
+    font-size: 1.3rem;
+    color: white;
+}
+/* ----MAIN---- */
+.destacados{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.destacados__evento{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.evento__imagen{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 4rem 3rem;
+    background: lightslategrey;
+    color: #010060;
+}
+.newsletter__imagen{
+    width: 35%;
+}
+.newsletter__formulario{
+    width: 60%;
+}
+.newsletter__titulo{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.newsletter__label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.newsletter__input{
+    width: 100%;
+    padding: 1rem;
+}
+.newsletter__button{
+    padding: 1rem;
+    width: 100%;
+    color: #010060;
+    background: lightslategrey;
+    border: solid 0.3rem white;
+    transition: all ease 0.5s;
+}
+.newsletter__button:hover{
+    color:lightslategrey;
+    background: #010060;
+    transition: all ease 0.5s;
+}
+
+
+/* ----FOOTER---- */
+.footer{
+    height: 5rem;
+    background: #010060;
 }
