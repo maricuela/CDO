@@ -106,3 +106,9 @@ fieldset{
     height: 5rem;
     background: #010060;
 }
+.footer_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
