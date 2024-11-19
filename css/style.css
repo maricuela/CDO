@@ -43,6 +43,11 @@ fieldset{
     gap: 1rem;
     padding: 1rem;
 }
+.destacados__titulo{
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
 .destacados__evento{
     width: 30%;
     display: flex;
