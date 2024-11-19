@@ -47,6 +47,7 @@ fieldset{
     width: 100%;
     font-size: 2rem;
     text-align: center;
+    color: #010060;
 }
 .destacados__evento{
     width: 30%;
@@ -61,6 +62,19 @@ fieldset{
     object-fit: cover;
     border-radius: 1rem;
 }
+.evento__titulo{
+    font-size: 1.2rem;
+    color: #010060;
+}
+.evento__ver{
+    display: inline-block;
+    padding: 0.5rem;
+    color: white;
+    background: #010060;
+}
+.evento__megusta{
+    color: black;
+}
 
 .newsletter{
     display: flex;
@@ -69,7 +83,7 @@ fieldset{
     gap: 3rem;
     padding: 4rem 3rem;
     background: black;
-    color: #010060;
+    color: lightslategrey;
 }
 .newsletter__imagen{
     width: 35%;
@@ -110,10 +124,16 @@ fieldset{
 .footer{
     height: 5rem;
     background: #010060;
+    display: flex;
+    justify-content: center;
 }
-.footer_lista{
+.footer__lista{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+}
+.footer__enlace{
+    color: white;
 }
