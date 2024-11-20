@@ -52,8 +52,7 @@ fieldset{
 .destacados__evento{
     width: 30%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 1rem;
 }
 .evento__imagen{
@@ -65,14 +64,21 @@ fieldset{
 .evento__titulo{
     font-size: 1.2rem;
     color: #010060;
+    text-align: center;
 }
-.evento__ver{
+.evento__accion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.accion__ver{
     display: inline-block;
     padding: 0.5rem;
     color: white;
     background: #010060;
 }
-.evento__megusta{
+.accion__megusta{
     color: black;
 }
 
