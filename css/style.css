@@ -52,7 +52,10 @@ fieldset{
 .destacados__evento{
     width: 30%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 }
 .evento__imagen{
@@ -65,18 +68,34 @@ fieldset{
     width: 100%;
     font-size: 1.2rem;
     color: #010060;
-    text-align: center;
+    text-align: start;
 }
 
 .evento__ver{
     width: 50%;
     padding: 0.5rem;
     color: white;
+    text-align: center;
     background: #010060;
 }
-
+.evento__ver:hover{
+    color: #010060;
+    background: lightslategrey;
+    cursor: pointer;
+}
 .evento__megusta {
     color: black;
+}
+.evento__megusta:hover {
+    color: red;
+    cursor: pointer;
+}
+.evento__comprar {
+    color: black;
+}
+.evento__comprar:hover {
+    color: #010060;
+    cursor: pointer;
 }
 
 .newsletter{
