@@ -62,23 +62,20 @@ fieldset{
     border-radius: 1rem;
 }
 .evento__titulo{
+    width: 100%;
     font-size: 1.2rem;
     color: #010060;
     text-align: center;
 }
-.evento__accion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-}
-.accion__ver{
-    display: inline-block;
+
+.evento__ver{
+    width: 50%;
     padding: 0.5rem;
     color: white;
     background: #010060;
 }
-.accion__megusta{
+
+.evento__megusta {
     color: black;
 }
 
