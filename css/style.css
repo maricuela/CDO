@@ -26,6 +26,10 @@ fieldset{
 .cabecera__logo{
     width: 20rem;
 }
+.cabecera__texto{
+    color: white;
+    width: 20%;
+}
 .cabecera__menu{
     display: flex;
     gap: 1rem;
@@ -91,7 +95,7 @@ fieldset{
     cursor: pointer;
 }
 .evento__comprar {
-    color: black;
+    color: red;
 }
 .evento__comprar:hover {
     color: #010060;
