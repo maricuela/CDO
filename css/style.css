@@ -26,11 +26,20 @@ fieldset{
 .cabecera__logo{
     width: 20rem;
 }
-.cabecera__texto{
-    color: white;
-    width: 20%;
+.cabecera__seccion{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 }
-.cabecera__menu{
+.seccion__texto{
+    color: yellow;
+    font-size: 1.3rem;
+    text-align: end;
+    width: 80%;
+}
+.seccion__menu{
     display: flex;
     gap: 1rem;
 }
@@ -65,7 +74,7 @@ fieldset{
 .evento__imagen{
     width: 100%;
     height: 30rem;
-    object-fit cover;
+    object-fit: cover;
     border-radius: 1rem;
 }
 .evento__titulo{
