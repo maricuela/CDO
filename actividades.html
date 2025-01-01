@@ -9,60 +9,33 @@
 </head>
 <body>
 <header class="cabecera">
-    <a href="index.html">
-        <img class="cabecera__logo" src="img/LOGO%20AZUL.png" alt="Logo de CDO">
-    </a>
-    <nav >
-        <ul class="cabecera__menu">
-            <li><a class="menu__enlace" href="index.html">Inicio</a></li>
-            <li><a class="menu__enlace" href="actividades.html">Actividades</a></li>
-            <li><a class="menu__enlace" href="#">Quién soy</a></li>
-            <li><a class="menu__enlace" href="#">Contacto</a></li>
-        </ul>
-    </nav>
+    <article class="cabecera__seccion">
+        <a href="index.html">
+            <img class="cabecera__logo" src="assets/LOGO%20AZUL.png" alt="Logo de CDO">
+         </a>
+
+        <nav >
+            <ul class="seccion__menu">
+                <li><a class="menu__enlace" href="index.html">Inicio</a></li>
+                <li><a class="menu__enlace" href="actividades.html">Actividades</a></li>
+                <li><a class="menu__enlace" href="#">Quién soy</a></li>
+                <li><a class="menu__enlace" href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </article>
+    <p class="seccion__texto">¡Desvela los misterios del universo con nosotros: talleres que te acercan a las maravillas infinitas del cielo nocturno!</p>
 </header>
 <main>
     <section class="destacados">
         <h1 class="destacados__titulo">Próximos eventos</h1>
         <article class="destacados__evento">
-            <img class="evento__imagen" src="img/via_lactea.jpg" alt="Imagen de la vía Láctea">
+            <img class="evento__imagen" src="assets/via_lactea.jpg" alt="Imagen de la vía Láctea">
             <h2 class="evento__titulo">Taller de estrellas</h2>
-            <section class="evento__accion">
-                <a class="accion__ver" href="#">Ver producto</a>
-                <span class="accion__megusta fa fa-solid fa-heart"></span>
-            </section>
-        </article>
-        <article class="destacados__evento">
-            <img class="evento__imagen" src="img/telescopio.jpg" alt="Imagen de la vía Láctea">
-            <h2 class="evento__titulo">Observación astronómica con telescopio</h2>
-            <section class="evento__accion">
-                <a class="accion__ver" href="#">Ver producto</a>
-                <span class="accion__megusta fa fa-solid fa-heart"></span>
-            </section>
-        </article>
-        <article class="destacados__evento">
-            <img class="evento__imagen" src="img/senderismo.jpg" alt="Imagen de la vía Láctea">
-            <h2 class="evento__titulo">Senderismo nocturno</h2>
-            <section class="evento__accion">
-                <a class="accion__ver" href="#">Ver producto</a>
-                <span class="accion__megusta fa fa-solid fa-heart"></span>
-            </section>
+            <a class="evento__ver" href="#">Ver producto</a>
+            <span class="evento__megusta fa fa-solid fa-heart"></span>
+            <span class="evento__comprar fa fa-regular fa-cart-shopping"></span>
         </article>
     </section>
-
-    <section class="newsletter">
-        <img class="newsletter__imagen" src="img/luna.jpg" alt="newsletter">
-        <form class="newsletter__formulario">
-            <legend class="newsletter__titulo">Contacta con nosotros</legend>
-            <fieldset>
-                <label class="newsletter__label">
-                    <input class="newsletter__input" type="text" placeholder="correo electrónico">
-                    <button class="newsletter__button" type="submit">Quiero recibir más información</button>
-                </label>
-            </fieldset>
-        </form>
-    </section>
-
 
 </main>
 <footer class="footer">
